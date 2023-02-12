@@ -1,0 +1,104 @@
+/ {
+    macros {
+        terminal: terminal {
+            label = "ZM_terminal";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp NUBS>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+        a_accent: a_accent {
+            label = "ZM_a_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        c_accent: c_accent {
+            label = "ZM_c_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp C>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        e_accent: e_accent {
+            label = "ZM_e_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp E>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        l_accent: l_accent {
+            label = "ZM_l_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp L>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        n_accent: n_accent {
+            label = "ZM_n_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp N>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        o_accent: o_accent {
+            label = "ZM_o_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp O>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        s_accent: s_accent {
+            label = "ZM_s_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp S>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        x_accent: x_accent {
+            label = "ZM_x_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp X>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        z_accent: z_accent {
+            label = "ZM_z_accent";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp Z>
+                , <&macro_release &kp LALT>
+                ;
+        };
+    };
+};
