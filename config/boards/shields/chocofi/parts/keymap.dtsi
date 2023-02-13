@@ -22,6 +22,10 @@
 #define VOL_DN &kp C_VOL_DN
 #define MUTE   &kp K_MUTE
 
+&mt {
+    tapping-term-ms = <250>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
