@@ -45,7 +45,7 @@
             bindings = <
             //           ╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             //           │          │          │          │          │          │   │          │          │          │          │          │
-                &none      &terminal  &none      &none      &none      &kp ESC        &kp BSPC   &kp DEL    &none      &none      &none      &none
+                &none      &terminal  &scrnshot  &cutshot   &none      &kp ESC        &kp BSPC   &kp DEL    &none      &none      &none      &none
             //           ├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
             //           │          │          │          │          │          │   │          │          │          │          │          │
                 &none      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp TAB        &kp RET    &kp RGUI   &kp RALT   &kp RCTRL  &kp RSHIFT &none

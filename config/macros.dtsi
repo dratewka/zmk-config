@@ -10,6 +10,30 @@
                 , <&macro_release &kp LGUI>
                 ;
         };
+        scrnshot: scrnshot {
+            label = "ZM_scrnshot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp N3>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+        cutshot: cutshot {
+            label = "ZM_cutshot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp N4>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LGUI>
+                ;
+        };
         a_accent: a_accent {
             label = "ZM_a_accent";
             compatible = "zmk,behavior-macro";
