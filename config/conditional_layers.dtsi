@@ -1,8 +1,12 @@
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NAV SYS>;
+        android_layer {
+            if-layers = <SYS NAV>;
+            then-layer = <AND>;
+        };
+        function_layer {
+            if-layers = <NAV SYM1>;
             then-layer = <FUN>;
         };
     };

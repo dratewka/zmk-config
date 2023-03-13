@@ -18,11 +18,13 @@
 / {
     combos {
         compatible = "zmk,combos";
-        COMBO(terminal, &terminal, 1 2)
+        // left shield
         COMBO(esc, &kp ESC, 3 4)
-        COMBO(backspace, &kp BSPC, 7 8)
         COMBO(tab, &kp TAB, 15 16)
-        COMBO(caps_word, &caps_word, 28 29)
+
+        // right shield
+        COMBO(backspace, &kp BSPC, 7 8)
         COMBO(enter, &kp RET, 19 20)
+        COMBO(space, &kp SPACE, 31 32)
     };
 };

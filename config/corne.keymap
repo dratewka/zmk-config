@@ -9,11 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define MAIN 0
-#define NAV  1
-#define SYM1 2
-#define SYM2 3
+#define SYM1 1
+#define SYM2 2
+#define NAV  3
 #define SYS  4
 #define FUN  5
+#define AND  6
 
 #include "behaviors.dtsi"
 #include "combos.dtsi"
